@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FROM cr.yandex/mirror/ubuntu:22.04
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -38,6 +39,9 @@ RUN unzip /tmp/KasperskyOS-Community-Edition-1.2.0.45 -d /opt \
     && ldconfig
 
 RUN su -c 'pip3 install PyYAML mavproxy pymavlink --user --upgrade' user
+=======
+FROM simulator-base
+>>>>>>> d984b36 (edit Dockerfile)
 
 COPY ./ardupilot /home/user/ardupilot
 COPY ./kos /home/user/kos

@@ -1,0 +1,1009 @@
+{
+    "cdls": {
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/AutopilotConnector.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "drone_controller/AutopilotConnectorInterface.idl",
+                    "drone_controller/Initialization.idl"
+                ]
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/AutopilotConnector.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/CredentialManager.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "drone_controller/CredentialManagerInterface.idl",
+                    "drone_controller/Initialization.idl"
+                ]
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/CredentialManager.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/FlightController.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": []
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/FlightController.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/NavigationSystem.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "drone_controller/Initialization.idl",
+                    "drone_controller/NavigationSystemInterface.idl"
+                ]
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/NavigationSystem.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/PeripheryController.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "drone_controller/Initialization.idl",
+                    "drone_controller/PeripheryControllerInterface.idl"
+                ]
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/PeripheryController.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/ServerConnector.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "drone_controller/Initialization.idl",
+                    "drone_controller/ServerConnectorInterface.idl"
+                ]
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/ServerConnector.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/einit/simulator_offline/EinitQemu-kss/Einit.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": []
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/einit/simulator_offline/EinitQemu-kss/Einit.edl",
+            "parent": "security.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/EntropyEntity.edl": {
+            "deps": {
+                "cdlDeps": [
+                    "kl/Entropy.cdl"
+                ],
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/EntropyEntity.edl",
+            "parent": "kl/VfsNet.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/Ntpd.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/Ntpd.edl",
+            "parent": "kl/VfsNet.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsNet.edl": {
+            "deps": {
+                "cdlDeps": [
+                    "kl/Vfs.cdl"
+                ],
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsNet.edl",
+            "parent": "kl/VfsNet.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl": {
+            "deps": {
+                "cdlDeps": [
+                    "kl/core/Audit.cdl",
+                    "kl/core/CM.cdl",
+                    "kl/core/FS.cdl",
+                    "kl/core/HAL.cdl",
+                    "kl/core/Handle.cdl",
+                    "kl/core/IO.cdl",
+                    "kl/core/IOMMU.cdl",
+                    "kl/core/IPC.cdl",
+                    "kl/core/Notice.cdl",
+                    "kl/core/PM.cdl",
+                    "kl/core/Profiler.cdl",
+                    "kl/core/Sync.cdl",
+                    "kl/core/Task.cdl",
+                    "kl/core/Thread.cdl",
+                    "kl/core/Time.cdl",
+                    "kl/core/VMM.cdl",
+                    "kl/core/XHCIDBG.cdl"
+                ],
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl",
+            "parent": "security.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/Bcm2711MboxArmToVc.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/drivers/Bcm2711MboxArmToVc.idl",
+                    "kl/drivers/Driver.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/Bcm2711MboxArmToVc.edl",
+            "parent": "kl/drivers/DNetSrv.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNetSrv.edl": {
+            "deps": {
+                "cdlDeps": [
+                    "kl/drivers/DNet.cdl"
+                ],
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNetSrv.edl",
+            "parent": "kl/drivers/DNetSrv.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/rump/Dhcpcd.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/rump/DhcpcdConfig.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/rump/Dhcpcd.edl",
+            "parent": "kl/rump/Dhcpcd.psl"
+        },
+        "kl/Entropy.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/Entropy.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/Entropy.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/EntropyEntity.edl"
+        },
+        "kl/Vfs.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/VfsACL.idl",
+                    "kl/VfsBPFilter.idl",
+                    "kl/VfsExtAttr.idl",
+                    "kl/VfsFilesystem.idl",
+                    "kl/VfsNPFilter.idl",
+                    "kl/VfsNative.idl",
+                    "kl/VfsNetConfig.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/Vfs.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsNet.edl"
+        },
+        "kl/core/Audit.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/Audit.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Audit.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/CM.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/CM.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/CM.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/FS.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/FS.idl",
+                    "kl/core/FSUnsafe.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/FS.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/HAL.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/HAL.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/HAL.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/Handle.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/Handle.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Handle.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/IO.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/IO.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/IO.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/IOMMU.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/IOMMU.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/IOMMU.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/IPC.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/IPC.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/IPC.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/Notice.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/Notice.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Notice.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/PM.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/PM.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/PM.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/Profiler.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/Profiler.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Profiler.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/Sync.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/Sync.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Sync.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/Task.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/Task.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Task.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/Thread.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/Thread.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Thread.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/Time.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/Time.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Time.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/VMM.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/VMM.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/VMM.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/core/XHCIDBG.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/core/XHCIDBG.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/XHCIDBG.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+        },
+        "kl/drivers/DNet.cdl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/drivers/DNet.idl",
+                    "kl/drivers/DNetMac.idl",
+                    "kl/drivers/DNetSupplicant.idl",
+                    "kl/drivers/DNetWifi.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNet.cdl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNetSrv.edl"
+        }
+    },
+    "edls": {
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/AutopilotConnector.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "drone_controller/AutopilotConnectorInterface.idl",
+                    "drone_controller/Initialization.idl"
+                ]
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/AutopilotConnector.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/CredentialManager.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "drone_controller/CredentialManagerInterface.idl",
+                    "drone_controller/Initialization.idl"
+                ]
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/CredentialManager.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/FlightController.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": []
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/FlightController.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/NavigationSystem.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "drone_controller/Initialization.idl",
+                    "drone_controller/NavigationSystemInterface.idl"
+                ]
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/NavigationSystem.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/PeripheryController.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "drone_controller/Initialization.idl",
+                    "drone_controller/PeripheryControllerInterface.idl"
+                ]
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/PeripheryController.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/ServerConnector.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "drone_controller/Initialization.idl",
+                    "drone_controller/ServerConnectorInterface.idl"
+                ]
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/ServerConnector.edl",
+            "parent": "security.psl"
+        },
+        "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/einit/simulator_offline/EinitQemu-kss/Einit.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": []
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/einit/simulator_offline/EinitQemu-kss/Einit.edl",
+            "parent": "security.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/EntropyEntity.edl": {
+            "deps": {
+                "cdlDeps": [
+                    "kl/Entropy.cdl"
+                ],
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/EntropyEntity.edl",
+            "parent": "kl/VfsNet.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/Ntpd.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/Ntpd.edl",
+            "parent": "kl/VfsNet.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsNet.edl": {
+            "deps": {
+                "cdlDeps": [
+                    "kl/Vfs.cdl"
+                ],
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsNet.edl",
+            "parent": "kl/VfsNet.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl": {
+            "deps": {
+                "cdlDeps": [
+                    "kl/core/Audit.cdl",
+                    "kl/core/CM.cdl",
+                    "kl/core/FS.cdl",
+                    "kl/core/HAL.cdl",
+                    "kl/core/Handle.cdl",
+                    "kl/core/IO.cdl",
+                    "kl/core/IOMMU.cdl",
+                    "kl/core/IPC.cdl",
+                    "kl/core/Notice.cdl",
+                    "kl/core/PM.cdl",
+                    "kl/core/Profiler.cdl",
+                    "kl/core/Sync.cdl",
+                    "kl/core/Task.cdl",
+                    "kl/core/Thread.cdl",
+                    "kl/core/Time.cdl",
+                    "kl/core/VMM.cdl",
+                    "kl/core/XHCIDBG.cdl"
+                ],
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl",
+            "parent": "security.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/Bcm2711MboxArmToVc.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/drivers/Bcm2711MboxArmToVc.idl",
+                    "kl/drivers/Driver.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/Bcm2711MboxArmToVc.edl",
+            "parent": "kl/drivers/DNetSrv.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNetSrv.edl": {
+            "deps": {
+                "cdlDeps": [
+                    "kl/drivers/DNet.cdl"
+                ],
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNetSrv.edl",
+            "parent": "kl/drivers/DNetSrv.psl"
+        },
+        "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/rump/Dhcpcd.edl": {
+            "deps": {
+                "cdlDeps": [],
+                "idlDeps": [
+                    "kl/rump/DhcpcdConfig.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/rump/Dhcpcd.edl",
+            "parent": "kl/rump/Dhcpcd.psl"
+        }
+    },
+    "idls": {
+        "drone_controller/AutopilotConnectorInterface.idl": {
+            "deps": {
+                "idlDeps": []
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/AutopilotConnectorInterface.idl",
+            "parent": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/AutopilotConnector.edl"
+        },
+        "drone_controller/CredentialManagerInterface.idl": {
+            "deps": {
+                "idlDeps": []
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/CredentialManagerInterface.idl",
+            "parent": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/CredentialManager.edl"
+        },
+        "drone_controller/Initialization.idl": {
+            "deps": {
+                "idlDeps": []
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/Initialization.idl",
+            "parent": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/ServerConnector.edl"
+        },
+        "drone_controller/NavigationSystemInterface.idl": {
+            "deps": {
+                "idlDeps": []
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/NavigationSystemInterface.idl",
+            "parent": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/NavigationSystem.edl"
+        },
+        "drone_controller/PeripheryControllerInterface.idl": {
+            "deps": {
+                "idlDeps": []
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/PeripheryControllerInterface.idl",
+            "parent": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/PeripheryController.edl"
+        },
+        "drone_controller/ServerConnectorInterface.idl": {
+            "deps": {
+                "idlDeps": []
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/ServerConnectorInterface.idl",
+            "parent": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/ServerConnector.edl"
+        },
+        "kl/Entropy.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/Entropy.idl",
+            "parent": "kl/Entropy.cdl"
+        },
+        "kl/VfsACL.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/VfsTypes.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsACL.idl",
+            "parent": "kl/Vfs.cdl"
+        },
+        "kl/VfsBPFilter.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/VfsTypes.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsBPFilter.idl",
+            "parent": "kl/Vfs.cdl"
+        },
+        "kl/VfsExtAttr.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/VfsTypes.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsExtAttr.idl",
+            "parent": "kl/Vfs.cdl"
+        },
+        "kl/VfsFilesystem.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/VfsTypes.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsFilesystem.idl",
+            "parent": "kl/Vfs.cdl"
+        },
+        "kl/VfsNPFilter.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/VfsTypes.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsNPFilter.idl",
+            "parent": "kl/Vfs.cdl"
+        },
+        "kl/VfsNative.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/VfsTypes.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsNative.idl",
+            "parent": "kl/Vfs.cdl"
+        },
+        "kl/VfsNetConfig.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/VfsTypes.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsNetConfig.idl",
+            "parent": "kl/Vfs.cdl"
+        },
+        "kl/VfsTypes.idl": {
+            "deps": {
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsTypes.idl",
+            "parent": "kl/VfsACL.idl"
+        },
+        "kl/core/Audit.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Audit.idl",
+            "parent": "kl/core/Audit.cdl"
+        },
+        "kl/core/CM.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/CM.idl",
+            "parent": "kl/core/CM.cdl"
+        },
+        "kl/core/FS.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/FS.idl",
+            "parent": "kl/core/FS.cdl"
+        },
+        "kl/core/FSUnsafe.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/FSUnsafe.idl",
+            "parent": "kl/core/FS.cdl"
+        },
+        "kl/core/HAL.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/HAL.idl",
+            "parent": "kl/core/Profiler.idl"
+        },
+        "kl/core/Handle.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Notice.idl",
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Handle.idl",
+            "parent": "kl/core/Handle.cdl"
+        },
+        "kl/core/IO.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/IO.idl",
+            "parent": "kl/core/IO.cdl"
+        },
+        "kl/core/IOMMU.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/IOMMU.idl",
+            "parent": "kl/core/IOMMU.cdl"
+        },
+        "kl/core/IPC.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/IPC.idl",
+            "parent": "kl/core/IPC.cdl"
+        },
+        "kl/core/Notice.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Notice.idl",
+            "parent": "kl/core/Notice.cdl"
+        },
+        "kl/core/PM.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/PM.idl",
+            "parent": "kl/core/PM.cdl"
+        },
+        "kl/core/Profiler.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/HAL.idl",
+                    "kl/core/Thread.idl",
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Profiler.idl",
+            "parent": "kl/core/Profiler.cdl"
+        },
+        "kl/core/Sync.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Sync.idl",
+            "parent": "kl/core/Sync.cdl"
+        },
+        "kl/core/Task.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Thread.idl",
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Task.idl",
+            "parent": "kl/core/Task.cdl"
+        },
+        "kl/core/Thread.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Thread.idl",
+            "parent": "kl/core/Thread.cdl"
+        },
+        "kl/core/Time.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Time.idl",
+            "parent": "kl/core/Time.cdl"
+        },
+        "kl/core/Types.idl": {
+            "deps": {
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Types.idl",
+            "parent": "kl/drivers/DNet.idl"
+        },
+        "kl/core/VMM.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/VMM.idl",
+            "parent": "kl/core/VMM.cdl"
+        },
+        "kl/core/XHCIDBG.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/XHCIDBG.idl",
+            "parent": "kl/core/XHCIDBG.cdl"
+        },
+        "kl/drivers/Bcm2711MboxArmToVc.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl",
+                    "kl/drivers/Driver.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/Bcm2711MboxArmToVc.idl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/Bcm2711MboxArmToVc.edl"
+        },
+        "kl/drivers/DNet.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNet.idl",
+            "parent": "kl/drivers/DNet.cdl"
+        },
+        "kl/drivers/DNetMac.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl",
+                    "kl/drivers/DNet.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNetMac.idl",
+            "parent": "kl/drivers/DNet.cdl"
+        },
+        "kl/drivers/DNetSupplicant.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl",
+                    "kl/drivers/DNet.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNetSupplicant.idl",
+            "parent": "kl/drivers/DNet.cdl"
+        },
+        "kl/drivers/DNetWifi.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl",
+                    "kl/drivers/DNet.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNetWifi.idl",
+            "parent": "kl/drivers/DNet.cdl"
+        },
+        "kl/drivers/Driver.idl": {
+            "deps": {
+                "idlDeps": [
+                    "kl/core/Types.idl"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/Driver.idl",
+            "parent": "kl/drivers/Bcm2711MboxArmToVc.idl"
+        },
+        "kl/rump/DhcpcdConfig.idl": {
+            "deps": {
+                "idlDeps": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/rump/DhcpcdConfig.idl",
+            "parent": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/rump/Dhcpcd.edl"
+        }
+    },
+    "platform": [
+        "system.platform",
+        {
+            "deps": [],
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/system.platform",
+            "parent": null
+        }
+    ],
+    "psls": {
+        "kl/EntropyEntity.psl": {
+            "deps": {
+                "cdlDeps": [],
+                "edlDeps": [
+                    "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/EntropyEntity.edl"
+                ],
+                "idlDeps": [],
+                "pslDeps": [],
+                "pslProviders": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/EntropyEntity.psl",
+            "parent": "security.psl"
+        },
+        "kl/VfsNet.psl": {
+            "deps": {
+                "cdlDeps": [],
+                "edlDeps": [
+                    "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/EntropyEntity.edl",
+                    "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/Ntpd.edl",
+                    "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsNet.edl",
+                    "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNetSrv.edl",
+                    "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/rump/Dhcpcd.edl"
+                ],
+                "idlDeps": [],
+                "pslDeps": [],
+                "pslProviders": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/VfsNet.psl",
+            "parent": "security.psl"
+        },
+        "kl/drivers/Bcm2711MboxArmToVc.psl": {
+            "deps": {
+                "cdlDeps": [],
+                "edlDeps": [
+                    "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/Bcm2711MboxArmToVc.edl"
+                ],
+                "idlDeps": [],
+                "pslDeps": [],
+                "pslProviders": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/Bcm2711MboxArmToVc.psl",
+            "parent": "security.psl"
+        },
+        "kl/drivers/DNetSrv.psl": {
+            "deps": {
+                "cdlDeps": [],
+                "edlDeps": [
+                    "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/Bcm2711MboxArmToVc.edl",
+                    "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNetSrv.edl"
+                ],
+                "idlDeps": [],
+                "pslDeps": [],
+                "pslProviders": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/drivers/DNetSrv.psl",
+            "parent": "security.psl"
+        },
+        "kl/rump/Dhcpcd.psl": {
+            "deps": {
+                "cdlDeps": [],
+                "edlDeps": [
+                    "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/rump/Dhcpcd.edl"
+                ],
+                "idlDeps": [],
+                "pslDeps": [],
+                "pslProviders": []
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/rump/Dhcpcd.psl",
+            "parent": "security.psl"
+        },
+        "nk/base.psl": {
+            "deps": {
+                "cdlDeps": [],
+                "edlDeps": [],
+                "idlDeps": [],
+                "pslDeps": [],
+                "pslProviders": [
+                    "base"
+                ]
+            },
+            "found": "/opt/KasperskyOS-Community-Edition-1.2.0.45/toolchain/include/nk/base.psl",
+            "parent": "security.psl"
+        },
+        "security.psl": {
+            "deps": {
+                "cdlDeps": [],
+                "edlDeps": [
+                    "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/AutopilotConnector.edl",
+                    "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/CredentialManager.edl",
+                    "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/FlightController.edl",
+                    "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/NavigationSystem.edl",
+                    "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/PeripheryController.edl",
+                    "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/_headers_/drone_controller/ServerConnector.edl",
+                    "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/einit/simulator_offline/EinitQemu-kss/Einit.edl",
+                    "/opt/KasperskyOS-Community-Edition-1.2.0.45/sysroot-aarch64-kos/include/kl/core/Core.edl"
+                ],
+                "idlDeps": [],
+                "pslDeps": [
+                    "kl/EntropyEntity.psl",
+                    "kl/VfsNet.psl",
+                    "kl/drivers/Bcm2711MboxArmToVc.psl",
+                    "kl/drivers/DNetSrv.psl",
+                    "kl/rump/Dhcpcd.psl",
+                    "nk/base.psl"
+                ],
+                "pslProviders": []
+            },
+            "found": "/home/dana/cyberimmune-systems-autonomous-delivery-drone-with-kos_sfedu-MarkovaDK/kos/build_sim_offline/einit/simulator_offline/EinitQemu-kss/security.psl",
+            "parent": null
+        }
+    }
+}

@@ -1,0 +1,116 @@
+entities:
+
+- name: drone_controller.AutopilotConnector
+  env:
+    VFS_FILESYSTEM_BACKEND: client:kl.VfsNet
+    VFS_NETWORK_BACKEND: client:kl.VfsNet
+  args:
+    - -sV4
+  connections:
+  - target: kl.VfsNet
+    id: kl.VfsNet
+
+
+- name: drone_controller.CredentialManager
+  env:
+    VFS_FILESYSTEM_BACKEND: client:kl.VfsNet
+  connections:
+  - target: kl.VfsNet
+    id: kl.VfsNet
+  - target: drone_controller.ServerConnector
+    id: server_connector_connection
+
+
+- name: drone_controller.FlightController
+  connections:
+  - target: drone_controller.AutopilotConnector
+    id: autopilot_connector_connection
+  - target: drone_controller.CredentialManager
+    id: credential_manager_connection
+  - target: drone_controller.NavigationSystem
+    id: navigation_system_connection
+  - target: drone_controller.PeripheryController
+    id: periphery_controller_connection
+  - target: drone_controller.ServerConnector
+    id: server_connector_connection
+
+
+- name: drone_controller.NavigationSystem
+  env:
+    VFS_FILESYSTEM_BACKEND: client:kl.VfsNet
+    VFS_NETWORK_BACKEND: client:kl.VfsNet
+  args:
+    - -sV4
+  connections:
+  - target: kl.VfsNet
+    id: kl.VfsNet
+  - target: drone_controller.CredentialManager
+    id: credential_manager_connection
+  - target: drone_controller.ServerConnector
+    id: server_connector_connection
+
+
+- name: drone_controller.PeripheryController
+  env:
+    VFS_FILESYSTEM_BACKEND: client:kl.VfsNet
+    VFS_NETWORK_BACKEND: client:kl.VfsNet
+  args:
+    - -sV4
+  connections:
+  - target: kl.VfsNet
+    id: kl.VfsNet
+  - target: drone_controller.CredentialManager
+    id: credential_manager_connection
+  - target: drone_controller.ServerConnector
+    id: server_connector_connection
+
+
+- name: drone_controller.ServerConnector
+
+
+- name: kl.VfsNet
+  path: VfsNet
+  connections:
+  - target: kl.EntropyEntity
+    id: kl.EntropyEntity
+
+  - target: kl.drivers.DNetSrv
+    id: kl.drivers.DNet
+  args:
+    - -l
+    - devfs /dev devfs rw
+    - -l
+    - ramfs /tmp ramfs rw
+    - -l
+    - romfs /etc romfs ro
+  env:
+        VFS_NETWORK_BACKEND: server:kl.VfsNet
+        VFS_FILESYSTEM_BACKEND: server:kl.VfsNet
+        DEFAULT_DNS_SERVER: 8.8.8.8
+
+- name: kl.rump.Dhcpcd
+  path: dhcpcd_entity
+  connections:
+  - target: kl.VfsNet
+    id: kl.VfsNet
+  args:
+    - '-4'
+    - -f
+    - /etc/dhcpcd.conf
+  env:
+    VFS_FILESYSTEM_BACKEND: client:kl.VfsNet
+    VFS_NETWORK_BACKEND: client:kl.VfsNet
+
+- name: kl.EntropyEntity
+  path: Entropy
+
+- name: kl.drivers.DNetSrv
+  path: dnet_entity
+  connections:
+  - target: kl.drivers.Bcm2711MboxArmToVc
+    id: kl.drivers.Bcm2711MboxArmToVc
+
+
+- name: kl.drivers.Bcm2711MboxArmToVc
+  path: bcm2711_mbox_arm2vc_qemu
+

@@ -1,0 +1,2 @@
+# Empty custom commands generated dependencies file for initialization_idl_files_copy_drone_controller.Initialization.idl.
+# This may be replaced when dependencies are built.
