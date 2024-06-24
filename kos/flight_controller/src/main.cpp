@@ -126,8 +126,16 @@ int main(void) {
     //The flight is need to be controlled from now on
     //Also we need to check on ORVD, whether the flight is still allowed or it is need to be paused
 
+    setCargoLock(uint8_t 0);
     while (true)
-        sleep(1000);
+    {
+        changeSpeed(int32_t 3.5);
+                int32_t lat, lon, alt;
+        getCoords(lat, lon, alt);
+        fprintf(stderr, "\n\n---Pos---\nLat: %.4f\nLon: %.4f\nAlt: %2.f\n---Hello from TSL---\n\n",
+                lat * 1e-7, lon * 1e-7, alt * 1e-2);
+        sleep(2);
+    }
 
     return EXIT_SUCCESS;
 }
